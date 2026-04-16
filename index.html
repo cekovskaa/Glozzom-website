@@ -305,185 +305,73 @@
     <!-- Gallery-section -->
 
     <section class="gallery">
-      <div class="container-custom py-2">
-        <div class="col-12 text-center">
-          <h4>Photo gallery</h4>
-          <p class="fontsize-small mb-0">Check our photos.</p>
+      <div class="container py-2 gallery-inner">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <h4>Photo gallery</h4>
+            <p class="fontsize-small mb-0">Check our photos.</p>
+          </div>
         </div>
-        <div class="row">
-          <div class="col-12 col-md-4 py-3">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-4 py-3 text-center">
             <img
               src="./Images/1.png"
               alt="Image 1"
-              class="img-fluid"
+              class="img-fluid mx-auto d-block gallery-thumb"
               data-bs-toggle="modal"
               data-bs-target="#image1modal"
             />
-            <div
-              class="modal fade"
-              id="image1modal"
-              tabindex="-1"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-body">
-                    <img
-                      id="modalImage"
-                      src="./Images/1.png"
-                      alt="Image"
-                      class="img-fluid w-100"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
 
-          <div class="col-12 col-md-4 py-3">
+          <div class="col-12 col-md-4 py-3 text-center">
             <img
               src="./Images/2.png"
               alt="Image 2"
-              class="img-fluid"
+              class="img-fluid mx-auto d-block gallery-thumb"
               data-bs-toggle="modal"
               data-bs-target="#image2modal"
             />
-            <div
-              class="modal fade"
-              id="image2modal"
-              tabindex="-1"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-body">
-                    <img
-                      id="modalImage"
-                      src="./Images/2.png"
-                      alt="Image"
-                      class="img-fluid w-100"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
 
-          <div class="col-12 col-md-4 py-3">
+          <div class="col-12 col-md-4 py-3 text-center">
             <img
               src="./Images/3.png"
               alt="Image 3"
-              class="img-fluid"
+              class="img-fluid mx-auto d-block gallery-thumb"
               data-bs-toggle="modal"
               data-bs-target="#image3modal"
             />
-            <div
-              class="modal fade"
-              id="image3modal"
-              tabindex="-1"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-body">
-                    <img
-                      id="modalImage"
-                      src="./Images/3.png"
-                      alt="Image"
-                      class="img-fluid w-100"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-12 col-md-4 py-3">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-4 py-3 text-center">
             <img
               src="./Images/4.png"
               alt="Image 4"
-              class="img-fluid"
+              class="img-fluid mx-auto d-block gallery-thumb"
               data-bs-toggle="modal"
               data-bs-target="#image4modal"
             />
-            <div
-              class="modal fade"
-              id="image4modal"
-              tabindex="-1"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-body">
-                    <img
-                      id="modalImage"
-                      src="./Images/4.png"
-                      alt="Image"
-                      class="img-fluid w-100"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
 
-          <div class="col-12 col-md-4 py-3">
+          <div class="col-12 col-md-4 py-3 text-center">
             <img
               src="./Images/5.png"
               alt="Image 5"
-              class="img-fluid"
+              class="img-fluid mx-auto d-block gallery-thumb"
               data-bs-toggle="modal"
               data-bs-target="#image5modal"
             />
-            <div
-              class="modal fade"
-              id="image5modal"
-              tabindex="-1"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-body">
-                    <img
-                      id="modalImage"
-                      src="./Images/5.png"
-                      alt="Image"
-                      class="img-fluid w-100"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
 
-          <div class="col-12 col-md-4 py-3">
+          <div class="col-12 col-md-4 py-3 text-center">
             <img
               src="./Images/6.png"
               alt="Image 6"
-              class="img-fluid"
+              class="img-fluid mx-auto d-block gallery-thumb"
               data-bs-toggle="modal"
               data-bs-target="#image6modal"
             />
-            <div
-              class="modal fade"
-              id="image6modal"
-              tabindex="-1"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-body">
-                    <img
-                      id="modalImage"
-                      src="./Images/6.png"
-                      alt="Image"
-                      class="img-fluid w-100"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -538,6 +426,116 @@
         </p>
       </div>
     </footer>
+
+    <!-- Gallery image modals (end of body — centered in viewport on all devices) -->
+    <div
+      class="modal fade"
+      id="image1modal"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-gallery">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img
+              src="./Images/1.png"
+              alt="Image 1"
+              class="img-fluid rounded gallery-modal-img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="image2modal"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-gallery">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img
+              src="./Images/2.png"
+              alt="Image 2"
+              class="img-fluid rounded gallery-modal-img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="image3modal"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-gallery">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img
+              src="./Images/3.png"
+              alt="Image 3"
+              class="img-fluid rounded gallery-modal-img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="image4modal"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-gallery">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img
+              src="./Images/4.png"
+              alt="Image 4"
+              class="img-fluid rounded gallery-modal-img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="image5modal"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-gallery">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img
+              src="./Images/5.png"
+              alt="Image 5"
+              class="img-fluid rounded gallery-modal-img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="image6modal"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-gallery">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img
+              src="./Images/6.png"
+              alt="Image 6"
+              class="img-fluid rounded gallery-modal-img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Video modal (at end of body so it centers in the viewport on all viewports) -->
     <div
